@@ -895,7 +895,7 @@ void test_seal(Evaluator &evaluator1, Encryptor &encryptor1, Decryptor &decrypto
 
 int main(){
 
-    uint64_t number_of_items = 1<<14;
+    uint64_t number_of_items = 1<<12;
     uint64_t size_per_item = 30000; // in bytes
     uint32_t N = 4096;
 
